@@ -5,33 +5,59 @@ body, html {
 }
 
 body {
-    background-image: url('../assets/space-img1.jpeg');
-    background-size: cover; /* This will make the background cover the entire page */
-    background-attachment: local; /* This will fix the background image in place */
-    background-position: center; /* This will center the background image */
-    background-repeat: no-repeat; /* This will prevent the background from repeating */
-    color: white; /* Make the text color white for better contrast */
+    background: radial-gradient(circle, #2d2d2d, #1b1b1b, #0f0f0f, #000000);
+    background-size: cover;
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
 }
 
 .content {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background to the content */
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
-    margin: 20px;
+    color: white;
 }
 
 .gradient-rainbow {
-    background: linear-gradient(0deg, rgba(141,147,204,1) 0%, rgba(41,3,59,1) 72%);
-    
-    min-height: 100vh; /* Adjust the height to ensure it covers the entire view */
-    width: 100vw;
+    background-color: #0d0a0b;
+    background-image: linear-gradient(315deg, #0d0a0b 0%, #009fc2 74%);
+    min-height: 100vh;
+    width: 100%;
     text-align: center;
     padding: 20px;
-    margin-top: 170px; /* Adjust the margin to create space between the sections */
+    margin-top: 0;
 }
 
-.card_bg{
-    background: rgb(8,19,51);
-    background: linear-gradient(294deg, rgba(45,49,64,1) 0%, rgba(106,135,158,1) 58%);
+.card_bg {
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+    
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.card_bg:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+
+.card_Background{
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+
+}
+
+h2 {
+    color: #87CEEB;
+}
+
+p {
+    color: #FFA07A;
+}
+
+ul li {
+    color: #E0FFFF;
 }

@@ -2,12 +2,7 @@ export const Club = {
   "clubs": [
     {
       "name": "AI Club",
-      "description": "Learn about artificial intelligence, machine learning, and their applications.",
-      "activities": [
-        "Workshops",
-        "Coding challenges",
-        "Guest lectures from AI professionals"
-      ],
+      "description": "Learn about artificial intelligence, machine learning, and their applications through workshops, seminars, and hands-on projects..",
       "benefits": [
         "Stay ahead in the tech world",
         "Build AI projects",
@@ -17,12 +12,7 @@ export const Club = {
     },
     {
       "name": "Coding Club",
-      "description": "Dive into the world of programming and software development.",
-      "activities": [
-        "Coding bootcamps",
-        "Hackathons",
-        "Collaborative projects"
-      ],
+      "description": "Dive into programming and software development, improve your coding skills, and work on real-world projects to prepare for tech careers.",
       "benefits": [
         "Improve coding skills",
         "Work on real-world projects",
@@ -32,12 +22,7 @@ export const Club = {
     },
     {
       "name": "Entrepreneurship Club",
-      "description": "Explore the fundamentals of starting and running a business.",
-      "activities": [
-        "Business plan competitions",
-        "Mentorship sessions",
-        "Startup tours"
-      ],
+      "description": "Explore starting and running a business, develop entrepreneurial skills, network with entrepreneurs, and learn about business management.",
       "benefits": [
         "Develop entrepreneurial skills",
         "Network with entrepreneurs",
@@ -47,12 +32,7 @@ export const Club = {
     },
     {
       "name": "Finance Club",
-      "description": "Gain insights into the world of finance, investments, and economics.",
-      "activities": [
-        "Financial modeling workshops",
-        "Stock market simulations",
-        "Expert talks"
-      ],
+      "description": "Gain insights into finance, investments, and economics, enhance financial literacy, and understand investment strategies for finance careers.",
       "benefits": [
         "Enhance financial literacy",
         "Understand investment strategies",
@@ -62,12 +42,7 @@ export const Club = {
     },
     {
       "name": "Public Speaking and Vocabulary Club",
-      "description": "Improve communication skills and vocabulary.",
-      "activities": [
-        "Speech competitions",
-        "Vocabulary-building exercises",
-        "Public speaking workshops"
-      ],
+      "description": "Improve communication skills and vocabulary, boost confidence, refine public speaking abilities, and expand your vocabulary through practice.",
       "benefits": [
         "Boost confidence",
         "Refine public speaking abilities",
